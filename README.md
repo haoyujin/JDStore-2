@@ -11,3 +11,14 @@ My JDStore's exercise for 2nd.
 ## 安装font-awesome-rails
 ---
 ## 增加限制，只有admin才可以进入后台
+---
+## 实现了上传图片
+>1. .gitignore
+>2. 修改了new、edit.html.erb
+
+## 实现了前台的index、show
+
+>1. navbar 添加 “products”
+
+## 实现了后台的index、edit、new
+## 管理员账户实现下拉后台进入“Admin选单”
