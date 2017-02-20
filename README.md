@@ -9,3 +9,5 @@ My JDStore's exercise for 2nd.
 ## 安装Devise
 ## 安装SimpleForm
 ## 安装font-awesome-rails
+---
+## 增加限制，只有admin才可以进入后台
