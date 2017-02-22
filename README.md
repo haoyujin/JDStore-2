@@ -22,3 +22,5 @@ My JDStore's exercise for 2nd.
 
 ## 实现了后台的index、edit、new
 ## 管理员账户实现下拉后台进入“Admin选单”
+---
+## 实现了购物车的前半部分，rails c的验证通过
