@@ -45,3 +45,5 @@ My JDStore's exercise for 2nd.
 #<b>3.结账页面</b>
 ## step1. 建立checkout routing!
 ---
+## step2.建立了order model
+---
