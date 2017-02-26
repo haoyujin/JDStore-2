@@ -16,6 +16,7 @@ My JDStore's exercise for 2nd.
 >1. .gitignore
 >2. 修改了new、edit.html.erb
 
+# <b>1.页面前后台区别实现</b>
 ## 实现了前台的index、show
 
 >1. navbar 添加 “products”
@@ -23,6 +24,7 @@ My JDStore's exercise for 2nd.
 ## 实现了后台的index、edit、new
 ## 管理员账户实现下拉后台进入“Admin选单”
 ---
+# <b>2.购物车功能设计</b>
 ## 实现了购物车的前半部分，rails c的验证通过
 ---
 ## 消费者随时可以察看购物车的产品数量
@@ -40,3 +42,6 @@ My JDStore's exercise for 2nd.
 ## 实现“可以更改购物车了物品数量”
 ---
 ## 实现“购物车新增数量时，不能更新超过库存数量”
+#<b>3.结账页面</b>
+## step1. 建立checkout routing!
+---
