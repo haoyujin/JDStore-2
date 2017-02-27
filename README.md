@@ -47,3 +47,4 @@ My JDStore's exercise for 2nd.
 ---
 ## step2.建立了order model
 ---
+## step3.建立了checkout结账页面！
