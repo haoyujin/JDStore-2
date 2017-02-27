@@ -63,3 +63,8 @@ My JDStore's exercise for 2nd.
 将网址改为秘密
 ## step1.在订单这个 model 里面加上一个栏位叫 token 存订单乱序号
 ---
+## step2.revise model/order.rb
+---
+## step3.修改网址导向
+### order_path(@order)--->order_path(@order.token) in create at orders_controller.rb
+###order.find--->order.find_by_token in show at orders_controller.rb
