@@ -53,4 +53,7 @@ My JDStore's exercise for 2nd.
 ---
 ---
 建立购买明细
-## step1.建立ProductList model
+## step1.建立了ProductList model
+---
+## step2.在订单建立后建立了购买明细缓存
+---
