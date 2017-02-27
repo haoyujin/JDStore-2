@@ -51,3 +51,6 @@ My JDStore's exercise for 2nd.
 ---
 ## step4.限制了必须填写下单人和收货人！
 ---
+---
+建立购买明细
+## step1.建立ProductList model
