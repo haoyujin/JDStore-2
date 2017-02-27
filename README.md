@@ -48,3 +48,6 @@ My JDStore's exercise for 2nd.
 ## step2.建立了order model
 ---
 ## step3.建立了checkout结账页面！
+---
+## step4.限制了必须填写下单人和收货人！
+---
