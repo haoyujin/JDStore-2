@@ -57,3 +57,5 @@ My JDStore's exercise for 2nd.
 ---
 ## step2.在订单建立后建立了购买明细缓存
 ---
+## step3.建立了购买明细views
+---
