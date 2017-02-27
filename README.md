@@ -67,4 +67,4 @@ My JDStore's exercise for 2nd.
 ---
 ## step3.修改网址导向
 ### order_path(@order)--->order_path(@order.token) in create at orders_controller.rb
-###order.find--->order.find_by_token in show at orders_controller.rb
+### order.find--->order.find_by_token in show at orders_controller.rb
