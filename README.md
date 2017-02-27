@@ -59,3 +59,7 @@ My JDStore's exercise for 2nd.
 ---
 ## step3.建立了购买明细views
 ---
+---
+将网址改为秘密
+## step1.在订单这个 model 里面加上一个栏位叫 token 存订单乱序号
+---
