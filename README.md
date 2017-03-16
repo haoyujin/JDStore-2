@@ -93,3 +93,17 @@ My JDStore's exercise for 2nd.
 ---
 ## step7: 已经结账的订单不可再付款，修改show!
 ---
+---
+寄送订单确认通知信
+## step1: 产生Mailer rails g mailer OrderMailer
+---
+## step2: 设定通知订单成立的寄信功能 <b>application_mailer.rb 与 order_mailer.rb的含义是什么？</b>
+## touch 确认单>  为什么名字是 notify_order_placed.html.erb?
+---
+## step3: 安装gem letter_opener来预览邮件，需要设置开发者环境！
+---
+## step4: rails c  在 console 模式测试信件预览
+---
+## step5: 在订单建立时寄通知信，并清空购物车！！！不明白这个语句
+<OrderMailer.notify_order_placed(@order).deliver!>
+---
