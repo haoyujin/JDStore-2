@@ -68,3 +68,12 @@ My JDStore's exercise for 2nd.
 ## step3.修改网址导向
 ### order_path(@order)--->order_path(@order.token) in create at orders_controller.rb
 ### order.find--->order.find_by_token in show at orders_controller.rb
+---
+---
+下拉菜单可以看到我的所有订单
+---
+## step1, rails g controller account::orders
+## step2, 修改routes.rb/修改controller，建立account/index.html.erb
+## step3, rails c destroy_all because token!
+## step4, DESC, 增加路径account_orders_path!
+---
