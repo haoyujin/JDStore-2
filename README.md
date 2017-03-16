@@ -77,3 +77,19 @@ My JDStore's exercise for 2nd.
 ## step3, rails c destroy_all because token!
 ## step4, DESC, 增加路径account_orders_path!
 ---
+---
+消费者可以针对订单结账
+## step1: rails g migration add_is_paid_to_order将订单氛围已付款，未付款！
+---
+## step2: rails g migration add_payment_method_to_order记录订单付款方式
+---
+## step3: 在show页面加入结账按钮！<class="group pull-right">
+---
+## step4: 设定路径
+---
+## step5: 设定controller
+---
+## step6: 修改modle设定order付款完成与付款方式记录的method
+---
+## step7: 已经结账的订单不可再付款，修改show!
+---
