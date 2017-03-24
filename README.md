@@ -107,3 +107,13 @@ My JDStore's exercise for 2nd.
 ## step5: 在订单建立时寄通知信，并清空购物车！！！不明白这个语句
 <OrderMailer.notify_order_placed(@order).deliver!>
 ---
+---
+切换订单状态
+## step1: AASM
+---
+## step2: 新增aasm_state 栏位。。。其实就是资料库db，问题——需要rails重启吗？
+---
+## step3: 设定订单状态机制---六个状态，已下订，已付款，出货中，到货，退货，取订。  event？
+---
+## step4: 用 AASM '的机制'设定订单付款. pay!中! ？
+---
