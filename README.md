@@ -95,7 +95,7 @@ My JDStore's exercise for 2nd.
 ---
 ---
 寄送订单确认通知信
-## step1: 产生Mailer rails g mailer OrderMailer
+## step1: 产生Mailer `rails g mailer OrderMailer`
 ---
 ## step2: 设定通知订单成立的寄信功能 <b>application_mailer.rb 与 order_mailer.rb的含义是什么？</b>
 ## touch 确认单>  为什么名字是 notify_order_placed.html.erb?
@@ -117,3 +117,14 @@ My JDStore's exercise for 2nd.
 ---
 ## step4: 用 AASM '的机制'设定订单付款. pay!中! ？
 ---
+---
+建立 admin/orders 可以看到系统内所有订单
+## step1:建立 admin/orders 的 controller & views
+<br>`rails g controller admin::orders`</br>
+修改routes.rb</br>
+修改admin/orders_controller.rb</br>
+修改layouts/admin.html.erb</br>
+`touch app/views/admin/orders/index.html.erb`</br>
+修改it！git add .
+---
+## step2
