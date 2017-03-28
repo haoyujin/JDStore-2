@@ -127,4 +127,12 @@ My JDStore's exercise for 2nd.
 `touch app/views/admin/orders/index.html.erb`</br>
 修改it！git add .
 ---
-## step2
+## step2: 建立后台订单页面
+---
+CRUD</br>
+设计show controller！
+`touch app/views/admin/orders/show.html.erb`</br>
+设计表单</br>
+在helper里增加render_order_paid_state(order)method</br>
+git add .</br>
+---
