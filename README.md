@@ -154,3 +154,13 @@ implement apply_to_cancel method in controllers/orders_controller.rb.
 修改订单页面，增加使用者申请取消订单按钮
 `touch app/views/order_mailer/apply_cancel.html.erb`
 ---
+---
+## Step 6: 在出货/取消订单后，系统应该寄出通知信
+---
+增加 ship 和 cancel method里的 OrderMailer.notify_xx(@order).deliver!</br>
+在`order_mailer.rb`新增 notify_ship 和 notify_cancel metod</br>
+touch app/views/order_mailer/notify_cancel.html.erb
+修改它！</br>
+touch app/views/order_mailer/notify_ship.html.erb
+修改它！</br>
+----
