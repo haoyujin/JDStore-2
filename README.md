@@ -147,3 +147,10 @@ orders_controller.rb 安置cancel/ship/shipped/return的method
 修改它
 `app/views/admin/orders/show.html.erb` routes add
 ---
+## Step 5: 用户取消订单
+---
+implement apply_to_cancel method in controllers/orders_controller.rb.
+修改 routes.rb
+修改订单页面，增加使用者申请取消订单按钮
+`touch app/views/order_mailer/apply_cancel.html.erb`
+---
