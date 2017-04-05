@@ -141,3 +141,9 @@ git add .</br>
 ---
 orders_controller.rb 安置cancel/ship/shipped/return的method
 ---
+## Step 4: 新增异动订单状态的按钮
+---
+`touch app/views/admin/orders/_state_option.html.erb`
+修改它
+`app/views/admin/orders/show.html.erb` routes add
+---
