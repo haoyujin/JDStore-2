@@ -136,3 +136,8 @@ CRUD</br>
 在helper里增加render_order_paid_state(order)method</br>
 git add .</br>
 ---
+## step3: 后台的订单可以依照“按照状态图”改变状态
+修改路径 resources :orders => resources :orders do ...member do......post :cancel/ship/shipped/return...</br>
+---
+orders_controller.rb 安置cancel/ship/shipped/return的method
+---
